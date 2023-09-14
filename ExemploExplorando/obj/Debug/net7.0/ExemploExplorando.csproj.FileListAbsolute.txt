@@ -12,3 +12,17 @@ C:\Temp\Bootcamp\ExemploExplorando\obj\Debug\net7.0\refint\ExemploExplorando.dll
 C:\Temp\Bootcamp\ExemploExplorando\obj\Debug\net7.0\ExemploExplorando.pdb
 C:\Temp\Bootcamp\ExemploExplorando\obj\Debug\net7.0\ExemploExplorando.genruntimeconfig.cache
 C:\Temp\Bootcamp\ExemploExplorando\obj\Debug\net7.0\ref\ExemploExplorando.dll
+D:\Bootcamp\ExemploExplorando\bin\Debug\net7.0\ExemploExplorando.exe
+D:\Bootcamp\ExemploExplorando\bin\Debug\net7.0\ExemploExplorando.deps.json
+D:\Bootcamp\ExemploExplorando\bin\Debug\net7.0\ExemploExplorando.runtimeconfig.json
+D:\Bootcamp\ExemploExplorando\bin\Debug\net7.0\ExemploExplorando.dll
+D:\Bootcamp\ExemploExplorando\bin\Debug\net7.0\ExemploExplorando.pdb
+D:\Bootcamp\ExemploExplorando\obj\Debug\net7.0\ExemploExplorando.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bootcamp\ExemploExplorando\obj\Debug\net7.0\ExemploExplorando.AssemblyInfoInputs.cache
+D:\Bootcamp\ExemploExplorando\obj\Debug\net7.0\ExemploExplorando.AssemblyInfo.cs
+D:\Bootcamp\ExemploExplorando\obj\Debug\net7.0\ExemploExplorando.csproj.CoreCompileInputs.cache
+D:\Bootcamp\ExemploExplorando\obj\Debug\net7.0\ExemploExplorando.dll
+D:\Bootcamp\ExemploExplorando\obj\Debug\net7.0\refint\ExemploExplorando.dll
+D:\Bootcamp\ExemploExplorando\obj\Debug\net7.0\ExemploExplorando.pdb
+D:\Bootcamp\ExemploExplorando\obj\Debug\net7.0\ExemploExplorando.genruntimeconfig.cache
+D:\Bootcamp\ExemploExplorando\obj\Debug\net7.0\ref\ExemploExplorando.dll
