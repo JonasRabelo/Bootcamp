@@ -26,3 +26,6 @@ D:\Bootcamp\ExemploExplorando\obj\Debug\net7.0\refint\ExemploExplorando.dll
 D:\Bootcamp\ExemploExplorando\obj\Debug\net7.0\ExemploExplorando.pdb
 D:\Bootcamp\ExemploExplorando\obj\Debug\net7.0\ExemploExplorando.genruntimeconfig.cache
 D:\Bootcamp\ExemploExplorando\obj\Debug\net7.0\ref\ExemploExplorando.dll
+D:\Bootcamp\ExemploExplorando\bin\Debug\net7.0\Newtonsoft.Json.dll
+D:\Bootcamp\ExemploExplorando\obj\Debug\net7.0\ExemploExplorando.csproj.AssemblyReference.cache
+D:\Bootcamp\ExemploExplorando\obj\Debug\net7.0\ExemploExplorando.csproj.CopyComplete

@@ -1,8 +1,70 @@
 ﻿using System;
 using System.Globalization;
 using ExemploExplorando.Models;
+using Newtonsoft.Json;
 
-Dictionary<string, string> estados = new Dictionary<string, string>();
+string conteudoArquivo = File.ReadAllText("Arquivos/vendas.json");
+
+List<Venda> listaVenda = JsonConvert.DeserializeObject<List<Venda>>(conteudoArquivo);
+
+foreach (Venda venda in listaVenda)
+{
+    System.Console.WriteLine($"Id: {venda.Id}, " +
+                             $"Produto: {venda.Produto}, " +
+                             $"Preço: {venda.Preco}, "+
+                             $"Data: {venda.DataVenda.ToString("dd/MM/yyyy HH:mm:ss")}");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*List<Venda> listaVendas = new List<Venda>();
+
+Venda v1 = new Venda(1, "Mouse", 45.99M, DateTime.Now);
+Venda v2 = new Venda(1, "Teclado", 67.99M, DateTime.Now);
+
+listaVendas.Add(v1);
+listaVendas.Add(v2);
+
+string serializado = JsonConvert.SerializeObject(listaVendas, Formatting.Indented);
+
+File.WriteAllText("Arquivos/vendas.json", serializado);
+
+Console.WriteLine(serializado);*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Dictionary<string, string> estados = new Dictionary<string, string>();
 
 estados.Add("SP", "São Paulo");
 estados.Add("BA", "Bahia");
@@ -31,7 +93,7 @@ if (estados.ContainsKey(chave))
 else
 {
     System.Console.WriteLine($"Valor não existe. É seguro adicionar a chave.");
-}
+}*/
 
 
 
