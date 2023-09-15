@@ -1,8 +1,50 @@
 ﻿using System;
 using System.Globalization;
 using ExemploExplorando.Models;
+//using Newtonsoft.Json;
 
-int numero = 342;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*int numero = 342;
 bool ehPar = false;
 //IF Ternário
 ehPar = numero % 2 == 00;
@@ -10,14 +52,26 @@ ehPar = numero % 2 == 00;
 Console.WriteLine($"O número {numero} é " + (ehPar ? "par" : "impar"));
 
 
-/*if (numero % 2 == 0)
+if (numero % 2 == 0)
 {
     Console.WriteLine($"O número {numero} é par");
 }
 else
 {
     Console.WriteLine($"O número {numero} é impar");
-}*/
+}
+
+string conteudoArquivo = File.ReadAllText("Arquivos/vendas.json");
+
+List<Venda> listaVenda = JsonConvert.DeserializeObject<List<Venda>>(conteudoArquivo);
+
+foreach (Venda venda in listaVenda)
+{
+    System.Console.WriteLine($"Id: {venda.Id}, " +
+                             $"Produto: {venda.Produto}, " +
+                             $"Preço: {venda.Preco}, "+
+                             $"Data: {venda.DataVenda.ToString("dd/MM/yyyy HH:mm:ss")}");
+}
 
 
 
@@ -33,11 +87,28 @@ else
 
 
 
-/*Pessoa p1 = new Pessoa("Jonas", "Rabelo");
+
+Pessoa p1 = new Pessoa("Jonas", "Rabelo");
 
 (string nome, string sobrenome) = p1;
 
 System.Console.WriteLine($"{nome} {sobrenome}");*/
+
+/*List<Venda> listaVendas = new List<Venda>();
+
+Venda v1 = new Venda(1, "Mouse", 45.99M, DateTime.Now);
+Venda v2 = new Venda(1, "Teclado", 67.99M, DateTime.Now);
+
+listaVendas.Add(v1);
+listaVendas.Add(v2);
+
+string serializado = JsonConvert.SerializeObject(listaVendas, Formatting.Indented);
+
+File.WriteAllText("Arquivos/vendas.json", serializado);
+
+Console.WriteLine(serializado);*/
+
+
 
 
 
@@ -86,6 +157,7 @@ System.Console.WriteLine(tupla.Item3);
 
 System.Console.WriteLine(outroExemplo);
 */
+
 
 
 
