@@ -1,22 +1,18 @@
-﻿// Classe base (superclasse)
-public class Animal
-{
-    public string Nome { get; set; }
-    
-    public void EmitirSom()
-    {
-        Console.WriteLine("Som do animal.");
-    }
-}
+﻿using ExemploPOO.Models;
 
-// Classe derivada (subclasse)
-public class Cachorro : Animal
-{
-    public void Latir()
-    {
-        Console.WriteLine("Woof!");
-    }
-}
+Aluno a1 = new Aluno();
+a1.Nome = "Jonas";
+a1.Idade = 25;
+a1.Email = "jsr@gmail.com";
+a1.Nota = 8.95;
+a1.Apresentar();
+
+Professor professor = new Professor();
+professor.Nome = "Otávio";
+professor.Idade = 52;
+professor.Salario = 14453.54M;
+professor.Email = "noura@otavio.com";
+professor.Apresentar();
 
 
 
@@ -39,16 +35,7 @@ public class Cachorro : Animal
 
 
 
-
-
-
-
-
-
-
-using ExemploPOO.Models;
-
-ContaCorrente c1 = new ContaCorrente(123, 1000);
+/*ContaCorrente c1 = new ContaCorrente(123, 1000);
 c1.ExibirSaldo();
 
 c1.Sacar(500);
@@ -63,7 +50,7 @@ c1.ExibirSaldo();
 
 
 
-/*Pessoa p1 = new Pessoa();
+Pessoa p1 = new Pessoa();
 p1.Nome = "Jonas";
 p1.Idade = 25;
 
